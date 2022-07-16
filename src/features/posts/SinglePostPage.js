@@ -23,10 +23,10 @@ const SinglePostPage = () => {
 
     return (
         
-    <div className="container p-3 d-flex justify-content-center ">
+    <div className="container p-3 ">
             
     
-            <div className="card-deck p-1">
+            <div className="card-deck p-1 d-flex justify-content-center ">
                <div className=" card" style={{width: "60rem"}}>
         <div className="card-body">
           <h5 className="card-title">{post.title}</h5>
